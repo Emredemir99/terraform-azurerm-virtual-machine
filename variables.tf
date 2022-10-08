@@ -547,6 +547,13 @@ variable "windows_distribution_list" {
       sku       = "2019-datacenter-with-containers-g2"
       version   = "latest"
     },
+    
+    windows2022dc-azure-edition = {
+      publisher = "MicrosoftWindowsServer"
+      offer     = "WindowsServer"
+      sku       = "2022-datacenter-azure-edition"
+      version   = "latest"
+    },
 
     windows2019dccore = {
       publisher = "MicrosoftWindowsServer"
